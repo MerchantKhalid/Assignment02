@@ -98,6 +98,9 @@ a {
 .fa-star-half-alt.unfilled {
   color: #fb8200;
 }
+.fa-whatsapp.colored {
+  color: #120e43;
+}
 
 .section-title {
   text-align: center;
@@ -194,7 +197,7 @@ footer .icon {
 }
 
 /* MOBILE SCREEN */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 914px) {
   body {
     overflow-x: hidden;
   }
@@ -239,5 +242,45 @@ footer .icon {
 /* mobile screen end */
 
 /* MEDIA SCREEN IPAD START */
+
+@media (min-width: 820px) and (max-width: 1180px) {
+  header {
+    display: none;
+  }
+  .top {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .textH1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .paragraph {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px 0 10px;
+  }
+  .btn {
+    margin-left: 25px;
+  }
+  .top-right img {
+    width: 160px;
+    height: 140px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .collection {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 40px;
+  }
+  .banner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 /* MEDIA SCREEN IPAD END */
