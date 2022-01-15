@@ -227,12 +227,17 @@ footer .icon {
     display: grid;
     grid-template-columns: 1fr;
   }
+  .top-right:hover img {
+    transform: none;
+    transition: none;
+  }
   .collection {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin-left: 40px;
   }
+
   .banner {
     width: 100%;
     display: grid;
